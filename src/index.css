@@ -6,41 +6,60 @@
 }
 
 header {
-  text-align: center;
-  background-image: linear-gradient(to right, #810EA3, #666289);
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
-  padding: 13px;
+  background-color: #FFCE00;
+  background-image: linear-gradient(to right, #D76746, #FFCD1E);
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.2);
+  padding: 15px;
 }
 
-.section {
+header h1 {
   display: flex;
-  
+  justify-content: center;
+  color: #F3F3F3;
+  font-size: 32px;
+  font-weight: 600;
+  font-style: italic;
+  text-transform: uppercase;
+  background: none;
+  border: none;
+  outline: none;
+  appearance: none;
 }
 
-.posts post {
-  margin: 1em;
-  padding: 1em 0em 1em 0em;
+.articles article {
+  padding: 30px 15px;
   background-color: #FFF;
-  color: #14121F;
-
+  color: #212121;
 }
 
-.posts post a {
+.articles article a {
   text-decoration: none;
 }
 
-.posts post h3 {
-  color: #15008f;
+.articles article h3 {
+  color: #413B3B;
 }
 
-.posts post:nth-child(2n) {
- color:#666289;
+.articles article:nth-child(2n) {
+  background-color: #F3F3F3;
 }
 
-.posts post:hover {
+.articles article:hover {
+  background-image: linear-gradient(to right, #DE74F0, #FFCD1E);
+}
+
+.articles article:hover h3 {
+  color: #FFF;
+}
+
+.redditFeed {
+  display: flex;
+  justify-content: left;
 
 }
 
-.posts post:hover h3 {
-
+.cat {
+  padding: 0;
+  margin: 0;
+  max-height: 50vh;
 }
